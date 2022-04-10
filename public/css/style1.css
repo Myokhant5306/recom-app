@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+}
+.header{
+    width: 80%;
+    margin: 40px auto 0px;
+    color: white;
+    background: black;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.words{
+    width: 29%;
+    background: transparent;
+    padding-top: 10px;
+    float: left;
+}
+
+.word{
+    width: 69%;
+    float: left;
+    padding-left: 10px;
+}
+
+#word_list{
+    max-height: 700px;
+    
+}
+
+li{
+    list-style-type: none;
+    line-height: 1.4em;
+}
+
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+ul{
+    margin-left: -10px;
+}
